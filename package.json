@@ -1,0 +1,34 @@
+{
+  "name": "repository-name-generator",
+  "version": "1.0.1",
+  "description": "Simple random name generator",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alator21/repository-name-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alator21/repository-name-generator/issues"
+  },
+  "homepage": "https://github.com/alator21/repository-name-generator#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.31",
+    "cross-env": "^5.2.0",
+    "gh-pages": "^1.2.0",
+    "parcel-bundler": "^1.9.7",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
