@@ -1,0 +1,17 @@
+body {
+    background-color: orange;
+}
+
+img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+/*# sourceMappingURL=/style.803f4ae7.css.map */
